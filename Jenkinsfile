@@ -3,14 +3,16 @@ agent any
 stages{
 
 stage('build'){
+  steps{
 echo"this is branching "
 }
-
+}
 
 stage('this is working '){
-echo"this is branching "
+  steps{
+  echo"this is branching "
 }
-
+}
 
 
 
